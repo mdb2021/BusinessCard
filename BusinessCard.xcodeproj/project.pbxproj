@@ -15,6 +15,7 @@
 		0F8023A3250071CD00C4FFB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F8023A1250071CD00C4FFB3 /* LaunchScreen.storyboard */; };
 		0F8023AE250071CD00C4FFB3 /* BusinessCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8023AD250071CD00C4FFB3 /* BusinessCardTests.swift */; };
 		0F8023B9250071CD00C4FFB3 /* BusinessCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8023B8250071CD00C4FFB3 /* BusinessCardUITests.swift */; };
+		0F8023C825007A0000C4FFB3 /* Satisfy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F8023C725007A0000C4FFB3 /* Satisfy-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0F8023B4250071CD00C4FFB3 /* BusinessCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusinessCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F8023B8250071CD00C4FFB3 /* BusinessCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCardUITests.swift; sourceTree = "<group>"; };
 		0F8023BA250071CD00C4FFB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F8023C725007A0000C4FFB3 /* Satisfy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Satisfy-Regular.ttf"; path = "../../../../Downloads/Satisfy/Satisfy-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		0F802395250071CC00C4FFB3 /* BusinessCard */ = {
 			isa = PBXGroup;
 			children = (
+				0F8023C62500799400C4FFB3 /* fonts */,
 				0F802396250071CC00C4FFB3 /* AppDelegate.swift */,
 				0F802398250071CC00C4FFB3 /* SceneDelegate.swift */,
 				0F80239A250071CC00C4FFB3 /* ContentView.swift */,
@@ -134,6 +137,14 @@
 				0F8023BA250071CD00C4FFB3 /* Info.plist */,
 			);
 			path = BusinessCardUITests;
+			sourceTree = "<group>";
+		};
+		0F8023C62500799400C4FFB3 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0F8023C725007A0000C4FFB3 /* Satisfy-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F8023A3250071CD00C4FFB3 /* LaunchScreen.storyboard in Resources */,
+				0F8023C825007A0000C4FFB3 /* Satisfy-Regular.ttf in Resources */,
 				0F8023A0250071CD00C4FFB3 /* Preview Assets.xcassets in Resources */,
 				0F80239D250071CD00C4FFB3 /* Assets.xcassets in Resources */,
 			);
